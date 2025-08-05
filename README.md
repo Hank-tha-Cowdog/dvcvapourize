@@ -1,6 +1,6 @@
 # 🎬 DVC Vapourize
 
-**Professional DV to HD ProRes upscaling pipeline with advanced deinterlacing and chroma cleanup**
+**Professional DV to HD upscaling tool using Vapoursynth with QTGMC deinterlacing and chroma enhance**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![VapourSynth](https://img.shields.io/badge/VapourSynth-R57%2B-green.svg)](http://vapoursynth.com/)
@@ -12,9 +12,9 @@
 ## ✨ Features
 
 - 🚀 **QTGMC Deinterlacing** - Industry-standard motion-compensated deinterlacing
-- 🧠 **NNEDI3 Neural Upscaling** - AI-powered 2× upscaling to 4K (3840×2160)
+- 🧠 **NNEDI3 Neural Upscaling** - AI-powered 2× upscaling to HD (1920x1080)
 - 🎯 **Advanced Chroma Cleanup** - Multi-pass temporal and spatial chroma artifact removal
-- 🎨 **DCI-P3 Color Space** - Professional color space handling for cinema workflows
+- 🎨 **Color Space Conversion** - Professional color space handling for cinema workflows
 - 📁 **Batch Processing** - Process entire directories with progress monitoring
 - 🖥️ **GUI & CLI** - Both graphical interface and command-line operation
 - ⚡ **Optimized Pipeline** - Multi-threaded processing with performance profiling
