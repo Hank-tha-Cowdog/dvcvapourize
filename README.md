@@ -1,6 +1,6 @@
 # 🎬 DVC Vapourize
 
-**Professional DV to 4K ProRes upscaling pipeline with advanced deinterlacing and chroma cleanup**
+**Professional DV to HD ProRes upscaling pipeline with advanced deinterlacing and chroma cleanup**
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![VapourSynth](https://img.shields.io/badge/VapourSynth-R57%2B-green.svg)](http://vapoursynth.com/)
