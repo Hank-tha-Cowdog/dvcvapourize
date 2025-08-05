@@ -1,0 +1,27 @@
+# DVC Vapourize - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core processing and progress visualization
+rich>=13.0.0
+tqdm>=4.65.0
+
+# Optional system monitoring and process management
+psutil>=5.9.0
+
+# VapourSynth plugin manager
+vsrepo>=1.0.0
+
+# Note: VapourSynth itself must be installed separately from:
+# http://vapoursynth.com/
+# 
+# Required VapourSynth plugins (install via vsrepo):
+# - qtgmc (motion-compensated deinterlacing)
+# - nnedi3 (neural network upscaling)
+# - havsfunc (QTGMC dependency)
+# - ffms2 (FFmpegSource2 for media input)
+# - lsmas (LSMASHSource fallback)
+# - mvtools (motion vector tools)
+# - vsdehalo (optional, for halo removal)
+#
+# Install plugins with:
+# vsrepo install qtgmc nnedi3 havsfunc ffms2 lsmas mvtools vsdehalo
